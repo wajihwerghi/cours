@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="e2eTests.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="writeExtentReport"/>
+          <include name="feature"/>
+          <include name="getDevice"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- e2eTests.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+2022-03-02 03:50:36,865 - com.qmetry.qaf.automation.util.PropertyUtil - ERROR - resources\application.properties (Le chemin d’accès spécifié est introuvable)
+2022-03-02 03:50:36,875 - com.qmetry.qaf.automation.core.ConfigurationManager - INFO - ISFW build info: {qaf-Type=core, qaf-Revision=1b, qaf-Build-Time=16-Sep-2021 15:13:41, qaf-Version=3.0}
+2022-03-02 03:50:36,875 - com.qmetry.qaf.automation.core.ConfigurationManager - ERROR - C:\Users\wajih\eclipse-workspace\cucumeberTuto\resources not exist!
+2022-03-02 03:50:37,197 - com.qmetry.qaf.automation.integration.ResultUpdator - INFO - Using QAF Json Reporter
