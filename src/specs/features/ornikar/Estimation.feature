@@ -54,12 +54,12 @@ Feature: Estimation
     And je saisis l adresse mail"<mail>"
     And je saisis le numero de "<Mobile>"
     And je saisis l adresse postale"<postal>"
-  # And je clique sur le bouton terminer
+    And je clique sur le bouton terminer
     Then Je verifie la Véhicule
     And je verifie Utilisation
     And je verifie Informations du titulaire
-    And je verifie Conducteurs - conductrices
-    And je clique sur le bouton Découvrir mes offres
+    #And je verifie Conducteurs - conductrices
+    #And je clique sur le bouton Découvrir mes offres
     And je verifie la formule recomandée
 
     Examples: 
