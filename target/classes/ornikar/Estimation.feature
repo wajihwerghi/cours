@@ -58,8 +58,8 @@ Feature: Estimation
     Then Je verifie la Véhicule
     And je verifie Utilisation
     And je verifie Informations du titulaire
-    #And je verifie Conducteurs - conductrices
-    #And je clique sur le bouton Découvrir mes offres
+    And je verifie Conducteurs - conductrices
+    And je clique sur le bouton Découvrir mes offres
     And je verifie la formule recomandée
 
     Examples: 
